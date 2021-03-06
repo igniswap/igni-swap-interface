@@ -29,7 +29,7 @@ describe('utils', () => {
       expect(getBscScanLink(3, 'abc', 'address')).toEqual('https://bscscan.com/address/abc')
     })
     it('enum', () => {
-      expect(getBscScanLink(ChainId.RINKEBY, 'abc', 'address')).toEqual('https://bscscan.com/address/abc')
+      expect(getBscScanLink(ChainId.BSCTESTNET, 'abc', 'address')).toEqual('https://bscscan.com/address/abc')
     })
   })
 
