@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@igniswap/sdk'
 
-export const ROUTER_ADDRESS = '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F'
+export const ROUTER_ADDRESS = '0x0c8eFd86cD72311B16cb12E16BDf74CeE1EBe4Be'
 
 // a list of tokens by chain
 type ChainTokenList = {
