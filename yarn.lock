@@ -3039,15 +3039,6 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@igniswap/igni-swap-core@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@igniswap/igni-swap-core/-/igni-swap-core-0.1.0.tgz#ce1bb3ef9a1a3b7b5eb9b32870958ab6d66ac4fa"
-  integrity sha512-Upvo4o7GlBu9rHIrdhri0aRmvvD+r3e2+YD9F6ZDS/1IHiJtfiHJ7/7INXg0xFkQkPacW3tB1mpSJSpynkwYzg==
-  dependencies:
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
-
 "@igniswap/igni-swap-core@https://github.com/igniswap/igni-swap-core.git":
   version "1.0.0"
   resolved "https://github.com/igniswap/igni-swap-core.git#cb722f53c8792cec6f48e6bd68d6cdad154cf696"
@@ -3852,10 +3843,10 @@
     yn "^3.1.1"
 
 "@igniswap/sdk@https://github.com/igniswap/igniswap-sdk.git":
-  version "1.0.1"
-  resolved "https://github.com/igniswap/igniswap-sdk.git#c2abc8a09ca8b6468b343beafc33871d2ee5c050"
+  version "1.0.0"
+  resolved "https://github.com/igniswap/igniswap-sdk.git#9f3d75e773b79dea5dd326dce973bf4f881d9a3c"
   dependencies:
-    "@igniswap/igni-swap-core" "0.1.0"
+    "@igniswap/igni-swap-core" "https://github.com/igniswap/igni-swap-core.git"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
@@ -13873,7 +13864,7 @@ iferr@^0.1.5:
 
 "igniswap-peripheral@https://github.com/igniswap/igni-swap-periphery.git":
   version "1.1.0-beta.0"
-  resolved "https://github.com/igniswap/igni-swap-periphery.git#f774020f5a808156dab5a86c9acdb5d274b65a3b"
+  resolved "https://github.com/igniswap/igni-swap-periphery.git#18b2add2607204d5eca22310799240c1390b2edd"
   dependencies:
     "@igniswap/igni-swap-core" "https://github.com/igniswap/igni-swap-core.git"
     "@igniswap/igni-swap-lib" "https://github.com/igniswap/igni-swap-lib.git"
